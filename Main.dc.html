@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Suresh Naik, Data Analyst</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0;font-family:Inter,system-ui,sans-serif;background:#0E1626;color:#E8EEF8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+a{color:#2DD4BF;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:3px solid #F2B705;outline-offset:2px}
+img{max-width:100%}
+</style>
+</helmet>
+
+<div style="width: 100%; background: #0E1626; color: #E8EEF8; font-family: Inter, system-ui, sans-serif;">
+
+<!-- NAV -->
+<header style="max-width: 1200px; margin: 0 auto; padding: 24px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px;">
+<a href="#top" style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 20px; color: #E8EEF8; letter-spacing: -0.01em;">Suresh Naik</a>
+<nav style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px; font-weight: 500;">
+<a href="#about" style="color: #E8EEF8;">About</a>
+<a href="#work" style="color: #E8EEF8;">Dashboards</a>
+<a href="#projects" style="color: #E8EEF8;">Projects</a>
+<a href="#experience" style="color: #E8EEF8;">Experience</a>
+<a href="#skills" style="color: #E8EEF8;">Skills</a>
+<a href="#freelance" style="color: #E8EEF8;">Freelance</a>
+<a href="#contact" style="color: #06202B; background: #2DD4BF; padding: 10px 18px; border-radius: 6px;">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px;">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2DD4BF;">Bengaluru, India &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; SQL &nbsp;·&nbsp; DAX</div>
+<h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 96px; line-height: 0.98; letter-spacing: -0.035em; color: #E8EEF8;">Data<br><span style="color: #2DD4BF;">Analyst</span></h1>
+<p style="margin: 0; max-width: 560px; font-size: 21px; line-height: 1.5; color: #A9B6CC;">I turn raw data from SQL, Azure and legacy reporting systems into dashboards that business teams can open, filter and trust without asking anyone else for numbers.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+<a href="#work" style="background: #2DD4BF; color: #06202B; font-weight: 600; font-size: 16px; padding: 14px 24px; border-radius: 6px;">View dashboards</a>
+<a href="#contact" style="background: #16223A; color: #E8EEF8; font-weight: 600; font-size: 16px; padding: 14px 24px; border-radius: 6px; border: 1px solid #2E3E5C;">Get in touch</a>
+</div>
+</div>
+<div style="flex: 1 1 340px; max-width: 460px; min-width: 0; position: relative;">
+<img src="./assets/9d69a2ca188024ed6622fc4b259f51fe.jpg" alt="Portrait of Suresh Naik" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 22% 30%; border-radius: 12px;">
+<div style="position: absolute; right: 16px; top: 16px; display: flex; align-items: center; gap: 10px; background: #0E1626; border: 1px solid #2DD4BF; border-radius: 10px; padding: 8px 14px 8px 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);">
+<svg width="40" height="44" viewBox="0 0 40 44" role="img" aria-label="Certification badge" style="flex: none;"><polygon points="20,2 37,11 37,33 20,42 3,33 3,11" fill="#2DD4BF"></polygon><path d="M12 22l6 6 11-12" fill="none" stroke="#06202B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<div style="display: flex; flex-direction: column; line-height: 1.2;"><span style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 20px; color: #E8EEF8; letter-spacing: 0.02em;">PL-300</span><span style="font-size: 12px; color: #A9B6CC;">Power BI Data Analyst</span></div>
+</div>
+<div style="position: absolute; left: 16px; bottom: 16px; right: 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; background: #16223A; border-radius: 8px; padding: 12px 16px; box-shadow: 0 8px 24px rgba(16,24,40,0.18);">
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #F2B705; flex: none;"></span>
+<span style="font-size: 14px; font-weight: 600; color: #E8EEF8;">Microsoft Certified Data Analyst</span>
+</div>
+</div>
+</section>
+
+<!-- STATS -->
+<section style="background: #111C31; border-top: 1px solid #26344F; border-bottom: 1px solid #26344F;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; gap: 32px 24px;">
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 48px; line-height: 1; letter-spacing: -0.02em; color: #E8EEF8; font-variant-numeric: tabular-nums;">7+</div>
+<div style="font-size: 15px; color: #A9B6CC;">years in IT</div>
+</div>
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 48px; line-height: 1; letter-spacing: -0.02em; color: #E8EEF8; font-variant-numeric: tabular-nums;">5+</div>
+<div style="font-size: 15px; color: #A9B6CC;">years building in Power BI</div>
+</div>
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 48px; line-height: 1; letter-spacing: -0.02em; color: #E8EEF8; font-variant-numeric: tabular-nums;">5</div>
+<div style="font-size: 15px; color: #A9B6CC;">enterprise client engagements</div>
+</div>
+<div style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 48px; line-height: 1; letter-spacing: -0.02em; color: #E8EEF8; font-variant-numeric: tabular-nums;">2</div>
+<div style="font-size: 15px; color: #A9B6CC;">platform migrations to Power BI</div>
+</div>
+</div>
+</section>
+
+<!-- QUOTE -->
+<section style="background: #2DD4BF; color: #06202B;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 24px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #0B4F4A;">How I work</div>
+<blockquote style="margin: 0; max-width: 980px; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 64px; line-height: 1.08; letter-spacing: -0.03em; color: #06202B;">Turn your data into meaningful insights.</blockquote>
+<div style="font-size: 17px; line-height: 1.5; color: #0B4F4A;">Suresh Naik, Data Analyst</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 40px; display: flex; flex-wrap: wrap; gap: 40px 64px;">
+<div style="flex: 1 1 280px; min-width: 0;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">About</h2>
+</div>
+<div style="flex: 2 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px; font-size: 18px; line-height: 1.65; color: #C3CEE0;">
+<p style="margin: 0;">I am a Power BI professional with 7+ years in IT and more than 5 of them in Power BI, SQL and the Microsoft Power Platform. I work from the business question backward: gather the requirement, check the data, design the model, then build the report.</p>
+<p style="margin: 0;">My day-to-day covers data modelling, DAX measures, Power Query transformations, row-level security, report publishing and SharePoint embedding. I also build internal tools with Power Apps and Power Automate, such as IT ticketing and invoice processing.</p>
+<p style="margin: 0;">The goal on every project is the same: a data model solid enough that business users answer their own questions without depending on someone else in the organisation.</p>
+<div style="display: flex; flex-direction: column; gap: 12px; padding-top: 12px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #A9B6CC;">Industries served</div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; background: #16223A; border: 1px solid #2E3E5C;">Retail &amp; Groceries</span>
+<span style="font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; background: #16223A; border: 1px solid #2E3E5C;">Healthcare</span>
+<span style="font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; background: #16223A; border: 1px solid #2E3E5C;">Manufacturing</span>
+<span style="font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; background: #16223A; border: 1px solid #2E3E5C;">Fashion &amp; Design Education</span>
+<span style="font-size: 14px; font-weight: 500; padding: 8px 14px; border-radius: 999px; background: #16223A; border: 1px solid #2E3E5C;">Explosives &amp; Blasting Solutions</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- DASHBOARDS -->
+<section id="work" style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 40px; display: flex; flex-direction: column; gap: 56px;">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Dashboards</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #A9B6CC;">Four sample Power BI dashboards that show how I structure a report: headline KPIs first, then trend, breakdown and detail. Figures are illustrative.</p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 32px 48px;">
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #2DD4BF;">Sample · Power BI</div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 30px; line-height: 1.15; letter-spacing: -0.015em;">Retail Sales Dashboard</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #A9B6CC;">Sales, profit, orders and margin against last year, with a monthly trend, regional map, category split, top products by margin and a customer segment breakdown. Filters for year, region, category and product.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">YoY KPIs</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Map visual</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Slicers</span>
+</div>
+</div>
+<div style="flex: 3 1 520px; min-width: 0;">
+<img src="./assets/c290202da9f73c88cb000e598cf6ff6d.png" alt="Retail Sales Dashboard built in Power BI, showing KPI cards, monthly sales trend, sales by region map and top products table" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #2E3E5C; box-shadow: 0 16px 40px rgba(16,24,40,0.12);">
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 32px 48px;">
+<div style="flex: 3 1 520px; min-width: 0;">
+<img src="./assets/0a5245954408383f931ac160fea56ea3.png" alt="Education Dashboard built in Power BI, showing student KPIs, enrollment trend, gender split, department performance and attendance heatmap" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #2E3E5C; box-shadow: 0 16px 40px rgba(16,24,40,0.12);">
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #2DD4BF;">Sample · Power BI</div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 30px; line-height: 1.15; letter-spacing: -0.015em;">Education Dashboard</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #A9B6CC;">Student performance and academic insights: enrollment against last year, attendance rate, pass percentage, department comparison, an attendance heatmap by weekday and a ranked list of top students.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Heatmap</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Trend vs last year</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Ranked table</span>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 32px 48px;">
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #2DD4BF;">Sample · Power BI</div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 30px; line-height: 1.15; letter-spacing: -0.015em;">Healthcare Operations Dashboard</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #A9B6CC;">A dark command-centre view of bed occupancy, throughput gauges, daily emergency and inpatient volume, wait time, length of stay and readmission trends, department load against a capacity threshold, and live alerts.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Gauges</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Stacked area</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Alerts</span>
+</div>
+</div>
+<div style="flex: 3 1 520px; min-width: 0;">
+<img src="./assets/20d6f198581cb2462cfeef0844b920bf.png" alt="Healthcare Operations Dashboard built in Power BI, showing a bed occupancy gauge, daily patient volume area chart, trend cards, department load and alerts" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #2E3E5C; box-shadow: 0 16px 40px rgba(16,24,40,0.12);">
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 32px 48px;">
+<div style="flex: 3 1 520px; min-width: 0;">
+<img src="./assets/c817815dac6f51de3d461762222aaa3a.png" alt="Vendor Spend Analysis dashboard built in Power BI, showing a spend bridge waterfall, category treemap, vendor bubble chart and top vendors table" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #2E3E5C; box-shadow: 0 16px 40px rgba(16,24,40,0.12);">
+</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #2DD4BF;">Sample · Power BI</div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 30px; line-height: 1.15; letter-spacing: -0.015em;">Vendor Spend Analysis</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #A9B6CC;">A slicer rail and KPI strip over a spend bridge from last year to this year, a category treemap, a bubble chart of vendor spend against payment days and a ranked vendor table with data bars.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Waterfall</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Treemap</span>
+<span style="font-size: 13px; font-weight: 500; padding: 6px 12px; border-radius: 4px; background: #1D2B47;">Bubble chart</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 40px; display: flex; flex-direction: column; gap: 40px;">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Client projects</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #A9B6CC;">Five client engagements across retail, distribution and manufacturing. Each started with requirements gathering and data validation, and ended with published reports, access set up for the right users and a handover to the business.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<sc-for list="{{projects}}" as="p" hint-placeholder-count="5">
+<article style="flex: 1 1 340px; min-width: 0; background: #16223A; border: 1px solid #26344F; border-radius: 10px; padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #2DD4BF;">{{p.domain}}</div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 22px; line-height: 1.25; letter-spacing: -0.01em;">{{p.title}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A9B6CC;">{{p.summary}}</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #E8EEF8; font-weight: 500;">{{p.outcome}}</p>
+<div style="margin-top: auto; padding-top: 14px; border-top: 1px solid #26344F; font-size: 13px; line-height: 1.5; color: #A9B6CC;"><span style="font-weight: 600; color: #E8EEF8;">Stack:</span> {{p.stack}}</div>
+</article>
+</sc-for>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 40px; display: flex; flex-wrap: wrap; gap: 40px 64px;">
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 12px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Experience</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #A9B6CC;">From systems analysis to business data analysis to Power BI delivery, newest first.</p>
+</div>
+<div style="flex: 2 1 520px; min-width: 0; display: flex; flex-direction: column;">
+<sc-for list="{{jobs}}" as="j" hint-placeholder-count="5">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 24px 0; border-top: 1px solid #2E3E5C;">
+<div style="flex: 0 1 200px; min-width: 0; font-size: 14px; line-height: 1.5; color: #A9B6CC; font-variant-numeric: tabular-nums;">{{j.dates}}<br>{{j.length}}</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 20px; line-height: 1.3;">{{j.role}}</div>
+<div style="font-size: 15px; color: #A9B6CC;">{{j.company}} · {{j.place}}</div>
+</div>
+</div>
+</sc-for>
+<div style="border-top: 1px solid #2E3E5C; padding: 24px 0 0; display: flex; flex-wrap: wrap; gap: 8px 32px;">
+<div style="flex: 0 1 200px; min-width: 0; font-size: 14px; line-height: 1.5; color: #A9B6CC;">Education</div>
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 4px;">
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 20px; line-height: 1.3;">Bachelor's degree</div>
+<div style="font-size: 15px; color: #A9B6CC;">JNTU College of Engineering, Kakinada</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="max-width: 1200px; margin: 0 auto; padding: 80px 24px 96px; display: flex; flex-direction: column; gap: 40px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Skills</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<sc-for list="{{skillGroups}}" as="g" hint-placeholder-count="4">
+<div style="flex: 1 1 260px; min-width: 0; background: #16223A; border: 1px solid #26344F; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 16px;">
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 18px; line-height: 1.3;">{{g.name}}</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<sc-for list="{{g.items}}" as="s" hint-placeholder-count="6">
+<span style="font-size: 13px; font-weight: 500; padding: 6px 10px; border-radius: 4px; background: #1D2B47; color: #E8EEF8;">{{s.label}}</span>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<!-- FREELANCE -->
+<section id="freelance" style="background: #16223A; border-top: 1px solid #26344F; border-bottom: 1px solid #26344F;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; flex-wrap: wrap; gap: 40px 64px;">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 20px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Freelance work</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #A9B6CC;">I take on freelance Power BI and data analytics projects alongside my full-time role. Share your data, your questions and your deadline, and I will scope a clear deliverable.</p>
+<div><a href="#contact" style="display: inline-block; background: #2DD4BF; color: #06202B; font-weight: 600; font-size: 16px; padding: 14px 24px; border-radius: 6px;">Discuss a project</a></div>
+</div>
+<div style="flex: 2 1 520px; min-width: 0; display: flex; flex-wrap: wrap; gap: 16px;">
+<sc-for list="{{freelance}}" as="f" hint-placeholder-count="4">
+<div style="flex: 1 1 240px; min-width: 0; background: #1B2943; border: 1px solid #26344F; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 10px;">
+<h3 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 20px; line-height: 1.25;">{{f.title}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A9B6CC;">{{f.text}}</p>
+</div>
+</sc-for>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px;">
+<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #A9B6CC;">How a project runs</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+<sc-for list="{{steps}}" as="s" hint-placeholder-count="5">
+<div style="flex: 1 1 180px; min-width: 0; border-top: 3px solid #2DD4BF; padding-top: 14px; display: flex; flex-direction: column; gap: 6px;">
+<div style="font-size: 13px; font-weight: 600; color: #2DD4BF; font-variant-numeric: tabular-nums;">{{s.n}}</div>
+<div style="font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 600; font-size: 18px;">{{s.title}}</div>
+<div style="font-size: 14px; line-height: 1.55; color: #A9B6CC;">{{s.text}}</div>
+</div>
+</sc-for>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background: #0A111F; color: #FFFFFF; border-top: 1px solid #26344F;">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px 64px;">
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 20px;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 48px; line-height: 1.08; letter-spacing: -0.025em; color: #FFFFFF;">Have data that needs a decision behind it?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #C9D1E0;">I am open to Data Analyst and Power BI roles. Send a note with the problem you are trying to solve.</p>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column;">
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 18px 0; border-top: 1px solid #3A4560;">
+<div style="flex: 0 0 110px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #AAB4C8;">Email</div>
+<a href="mailto:karamsisuresh.bi@gmail.com" style="flex: 1 1 200px; min-width: 0; font-size: 18px; color: #FFFFFF; overflow-wrap: anywhere;">karamsisuresh.bi@gmail.com</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 18px 0; border-top: 1px solid #3A4560;">
+<div style="flex: 0 0 110px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #AAB4C8;">Phone</div>
+<a href="tel:+919108689980" style="flex: 1 1 200px; min-width: 0; font-size: 18px; color: #FFFFFF;">+91 91086 89980</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 18px 0; border-top: 1px solid #3A4560;">
+<div style="flex: 0 0 110px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #AAB4C8;">LinkedIn</div>
+<a href="https://www.linkedin.com/in/suresh-naik-b3b040173" style="flex: 1 1 200px; min-width: 0; font-size: 18px; color: #FFFFFF; overflow-wrap: anywhere;">linkedin.com/in/suresh-naik-b3b040173</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 24px; padding: 18px 0; border-top: 1px solid #3A4560; border-bottom: 1px solid #3A4560;">
+<div style="flex: 0 0 110px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #AAB4C8;">Location</div>
+<div style="flex: 1 1 200px; min-width: 0; font-size: 18px; color: #FFFFFF;">Bengaluru, Karnataka, India</div>
+</div>
+</div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 24px 32px; font-size: 13px; color: #AAB4C8;">© 2026 Suresh Naik</div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5700}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+projects: [
+{ domain: 'Retail · E-commerce', title: 'Online home organisation store', summary: 'Online retailer of home organisation and decor products. Gathered requirements from stakeholders, validated source data and wrote the technical specifications. SQL data feeds Power BI reports that are embedded in SharePoint.', outcome: 'Onboarded new vendors, extended existing reports, built daily ad-hoc reports and managed user access, so business users could self-serve from one data model.', stack: 'Power BI, SQL, SharePoint, Power Automate' },
+{ domain: 'Wholesale · Grocery', title: 'Grocery wholesale distribution', summary: 'Retailer-owned grocery wholesale distributor. Migrating legacy WebFOCUS reports into Power BI and moving data from DB2 into an Azure Synapse lake database.', outcome: 'Publishing reports to workspaces with role-based access, plus ad-hoc reports on request, with the aim of replacing WebFOCUS and DB2 end to end.', stack: 'Power BI, Azure Data Factory, Azure Logic Apps, Azure Synapse' },
+{ domain: 'Distribution · Electrical', title: 'Sales and product analytics', summary: 'US electrical wholesale distributor. Built a sales analytics dashboard and a product analysis dashboard covering total sales, month-over-month and same-period-last-year, tax paid and orders by region and country.', outcome: 'Added top customers, category and product breakdowns, penetration rate, and online versus offline orders by region.', stack: 'SQL Server, Power BI Desktop and Service, WebFOCUS' },
+{ domain: 'Distribution · Building products', title: 'Vendor spending analysis', summary: 'Plywood and hardboard distributor serving kitchen cabinet makers. Created the vendor spending analysis with tax, purchase orders and user information, and set up the data gateway.', outcome: 'Time analytics: year-over-year PO count, vendor tenure, last PO and average payment days. Trend analytics: spend by month, day and year.', stack: 'SQL Server, Power BI Desktop and Service, WebFOCUS' },
+{ domain: 'Manufacturing', title: 'Tableau to Power BI migration', summary: 'Fabricator of laminated, wrapped and wood products. Migrated all existing Tableau dashboards, reports and data sources to Power BI and compared both tools to decide what to adapt or redesign.', outcome: 'Ran data accuracy validation, trained end users and held a final review with stakeholders.', stack: 'Tableau, Power BI, SQL Server' }
+],
+jobs: [
+{ dates: 'Jan 2022 – Present', length: '4 yrs 11 mos', role: 'SSE', company: 'Programmers.ai', place: 'Hyderabad' },
+{ dates: 'Dec 2020 – Jan 2022', length: '1 yr 2 mos', role: 'Business Data Analyst', company: 'Allyted Solutions', place: 'Hyderabad' },
+{ dates: 'Oct 2019 – Nov 2020', length: '1 yr 2 mos', role: 'Data Management Consultant', company: 'S&V', place: 'Bangalore' },
+{ dates: 'Feb 2018 – Oct 2019', length: '1 yr 9 mos', role: 'System Analyst', company: 'Firstsource', place: 'Bangalore' },
+{ dates: 'Feb 2017 – Sep 2017', length: '8 mos', role: 'ASE', company: 'Indecomm Digital Services', place: 'Bangalore' }
+],
+freelance: [
+{ title: 'Dashboards and reports', text: 'Power BI dashboards designed around your KPIs, with clean data models, DAX measures and row-level security.' },
+{ title: 'SQL data modelling', text: 'Extraction, cleaning and star-schema models in SQL Server so reports stay fast and numbers stay consistent.' },
+{ title: 'Migration to Power BI', text: 'Move Tableau, Qlik Sense or legacy reports to Power BI with feature comparison, accuracy checks and training.' },
+{ title: 'Power Apps and Automate', text: 'Small internal tools and workflows, such as ticketing and invoice processing, connected to your Power BI reports.' }
+],
+steps: [
+{ n: '01', title: 'Requirements', text: 'Agree the questions the report must answer and who will use it.' },
+{ n: '02', title: 'Data check', text: 'Validate sources and fix quality issues before design starts.' },
+{ n: '03', title: 'Model', text: 'Build the data model and measures that every visual will use.' },
+{ n: '04', title: 'Build', text: 'Design the report, review it with you and refine.' },
+{ n: '05', title: 'Handover', text: 'Publish with the right access and train your team.' }
+],
+skillGroups: [
+{ name: 'BI and visualization', items: [{label:'Power BI Desktop'},{label:'Power BI Service'},{label:'DAX'},{label:'Power Query'},{label:'Power Pivot'},{label:'Row-level security'},{label:'SAP BO'},{label:'Tableau (basics)'},{label:'MS Excel'},{label:'IBI WebFOCUS'}] },
+{ name: 'Data and cloud', items: [{label:'SQL'},{label:'MS SQL Server'},{label:'SAP HANA'},{label:'IBM Db2'},{label:'Azure Synapse Analytics'},{label:'Azure Data Factory'},{label:'Azure Logic Apps'}] },
+{ name: 'Power Platform', items: [{label:'Power Automate'},{label:'Power Apps (basics)'},{label:'Dataverse'},{label:'SharePoint embedding'},{label:'Power FX'}] },
+{ name: 'Delivery', items: [{label:'Requirements gathering'},{label:'Tableau to Power BI migration'},{label:'Qlik Sense to Power BI migration'},{label:'Gateway setup'},{label:'End-user training'},{label:'Azure DevOps'},{label:'Jira'},{label:'Monday.com'},{label:'Claude for Power BI'}] }
+]
+};
+}
+}
+</script>
+</body>
+</html>
